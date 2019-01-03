@@ -38,7 +38,6 @@
 		5F7974781C17B02200EF50C4 /* OverlayExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7974771C17B02200EF50C4 /* OverlayExampleViewController.swift */; };
 		5F79747A1C17B67F00EF50C4 /* BuyOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7974791C17B67F00EF50C4 /* BuyOverlayViewController.swift */; };
 		5F79747C1C17ED7800EF50C4 /* TimedOverlayExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F79747B1C17ED7800EF50C4 /* TimedOverlayExampleViewController.swift */; };
-		5F7CDF471BBEB6C400EF50C4 /* YoutubeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7CDF461BBEB6C400EF50C4 /* YoutubeParser.swift */; };
 		5F7CDF491BBEB6DD00EF50C4 /* StateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7CDF481BBEB6DD00EF50C4 /* StateHelper.swift */; };
 		5F7CDF4B1BBEB6F900EF50C4 /* VolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7CDF4A1BBEB6F900EF50C4 /* VolumeView.swift */; };
 		5F7CDF4D1BBEB70A00EF50C4 /* MobilePlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7CDF4C1BBEB70A00EF50C4 /* MobilePlayerControlsView.swift */; };
@@ -87,6 +86,7 @@
 		CE554D5B1AFE6CCD00DAC7E9 /* MobilePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE554D4F1AFE6CCD00DAC7E9 /* MobilePlayer.framework */; };
 		CE554D731AFE6EBB00DAC7E9 /* MobilePlayerOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554D6E1AFE6EBB00DAC7E9 /* MobilePlayerOverlayViewController.swift */; };
 		CE554D741AFE6EBB00DAC7E9 /* MobilePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554D6F1AFE6EBB00DAC7E9 /* MobilePlayerViewController.swift */; };
+		E3397FD321DDF411002E7A04 /* YoutubeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3397FD221DDF411002E7A04 /* YoutubeParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,7 +172,6 @@
 		5F7974771C17B02200EF50C4 /* OverlayExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayExampleViewController.swift; sourceTree = "<group>"; };
 		5F7974791C17B67F00EF50C4 /* BuyOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyOverlayViewController.swift; sourceTree = "<group>"; };
 		5F79747B1C17ED7800EF50C4 /* TimedOverlayExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimedOverlayExampleViewController.swift; sourceTree = "<group>"; };
-		5F7CDF461BBEB6C400EF50C4 /* YoutubeParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YoutubeParser.swift; path = MobilePlayer/Parsers/YoutubeParser.swift; sourceTree = SOURCE_ROOT; };
 		5F7CDF481BBEB6DD00EF50C4 /* StateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StateHelper.swift; path = Helpers/StateHelper.swift; sourceTree = "<group>"; };
 		5F7CDF4A1BBEB6F900EF50C4 /* VolumeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VolumeView.swift; path = Views/VolumeView.swift; sourceTree = "<group>"; };
 		5F7CDF4C1BBEB70A00EF50C4 /* MobilePlayerControlsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MobilePlayerControlsView.swift; path = Views/MobilePlayerControlsView.swift; sourceTree = "<group>"; };
@@ -228,6 +227,7 @@
 		CE554D601AFE6CCD00DAC7E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE554D6E1AFE6EBB00DAC7E9 /* MobilePlayerOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerOverlayViewController.swift; sourceTree = "<group>"; };
 		CE554D6F1AFE6EBB00DAC7E9 /* MobilePlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerViewController.swift; sourceTree = "<group>"; };
+		E3397FD221DDF411002E7A04 /* YoutubeParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeParser.swift; sourceTree = "<group>"; };
 		E4BB3AE1437BCF90E942E120 /* Pods_MobilePlayerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilePlayerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D73B451E88B493F3D4298C /* Pods_MobilePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8AD4F2FB52026C487C3B5A7 /* Pods-MobilePlayerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilePlayerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobilePlayerExample/Pods-MobilePlayerExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -427,15 +427,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		C3A9AF0F1B04C89D00D0C842 /* Parsers */ = {
-			isa = PBXGroup;
-			children = (
-				5F7CDF461BBEB6C400EF50C4 /* YoutubeParser.swift */,
-			);
-			name = Parsers;
-			path = Parser;
-			sourceTree = "<group>";
-		};
 		CE554D451AFE6CCD00DAC7E9 = {
 			isa = PBXGroup;
 			children = (
@@ -472,7 +463,7 @@
 				5FD756951BAC4AE700EF50C4 /* WatermarkViewController.swift */,
 				5F7CFC251BA22A3100EF50C4 /* Views */,
 				C308B3B71B14F98700CB1515 /* Config */,
-				C3A9AF0F1B04C89D00D0C842 /* Parsers */,
+				E3397FD121DDF411002E7A04 /* Parsers */,
 				5F7CFC261BA22A6B00EF50C4 /* Helpers */,
 				C3A4069C1B278A4900D1833D /* Extensions */,
 				5F8272751BFAC3BD00EF50C4 /* Resources */,
@@ -517,6 +508,14 @@
 				460022C3A2D4FC80A1D57D18 /* Pods-MobilePlayerTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3397FD121DDF411002E7A04 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				E3397FD221DDF411002E7A04 /* YoutubeParser.swift */,
+			);
+			path = Parsers;
 			sourceTree = "<group>";
 		};
 		F94C339738693C320D05B58C /* Frameworks */ = {
@@ -653,7 +652,7 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = MovieLaLa;
 				TargetAttributes = {
 					5F56CB6E1C0407F200EF50C4 = {
@@ -819,7 +818,7 @@
 				5FBFEA2E1BA8AC1B00EF50C4 /* BarConfig.swift in Sources */,
 				C308B3C01B150F7600CB1515 /* MobilePlayerConfig.swift in Sources */,
 				5F8272741BFA9F0600EF50C4 /* UIImage+CocoaPods.swift in Sources */,
-				5F7CDF471BBEB6C400EF50C4 /* YoutubeParser.swift in Sources */,
+				E3397FD321DDF411002E7A04 /* YoutubeParser.swift in Sources */,
 				5FD756961BAC4AE700EF50C4 /* WatermarkViewController.swift in Sources */,
 				5FBFEA321BA8ACC500EF50C4 /* LabelConfig.swift in Sources */,
 				5F6AF3701BA96EF000EF50C4 /* Button.swift in Sources */,
@@ -891,6 +890,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -905,7 +905,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -913,6 +913,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -925,7 +926,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.MobilePlayerExampleStores;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -940,7 +941,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.MobilePlayerExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -955,7 +956,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.MobilePlayerExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -968,7 +969,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobileplayer.MobilePlayerExamplesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = MobilePlayerExamples;
 				USES_XCTRUNNER = YES;
 			};
@@ -983,7 +984,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobileplayer.MobilePlayerExamplesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = MobilePlayerExamples;
 				USES_XCTRUNNER = YES;
 			};
@@ -997,14 +998,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1034,7 +1043,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1049,14 +1058,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1078,7 +1095,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1090,6 +1107,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1102,7 +1120,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1110,6 +1128,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1121,7 +1140,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.movielala.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

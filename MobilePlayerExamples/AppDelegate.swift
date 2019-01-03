@@ -9,15 +9,17 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
-  var window: UIWindow?
-
-  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    let window = UIWindow(frame: UIScreen.main.bounds)
-    window.backgroundColor = UIColor.white
-    window.rootViewController = UINavigationController(rootViewController: ExamplesTableViewController())
-    window.makeKeyAndVisible()
-    self.window = window
-    return true
-  }
+class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate
+{
+    var window: UIWindow?
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool
+    {
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.backgroundColor = UIColor.white
+        window.rootViewController = UINavigationController(rootViewController: ExamplesTableViewController())
+        window.makeKeyAndVisible()
+        self.window = window
+        return true
+    }
 }
